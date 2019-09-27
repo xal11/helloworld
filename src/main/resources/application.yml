@@ -1,0 +1,21 @@
+server:
+  port: 7777
+  servlet:
+    context-path: /exam
+
+
+#spring:
+#  profiles:
+#    active : dev
+#    #active: production
+#  datasource:
+#      driver-class-name: com.mysql.jdbc.Driver
+#      username: exam
+#      password: exam
+#      url: jdbc:mysql://localhost/examdb?characterEncoding=utf-8&useSSL=false
+#  jpa:
+#      show-sql: true
+#      hibernate:
+#        naming:
+#          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#          #默认驼峰转下划线 此配置为不转换实体bean的字段名
